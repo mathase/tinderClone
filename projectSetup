@@ -1,0 +1,57 @@
+Front-end 
+npx create-react-app 
+npm i bootstrap material
+npm i axios
+npm start
+
+backend 
+npm init
+npm i express mongoose cors
+npm i nodemon 
+
+config server.js
+import express mongoose
+-app config
+const app = express()
+-middleware
+app.use cors
+app.use express.json()
+-dbconnection
+mongoose.connect(connection_url)
+-api end point
+app.get (req, res) res.status200 send
+-listening port
+app.listen consolelog ${port}
+
+create a db schema
+export default dbschema, 
+
+import db schema on server.js
+-post api end point
+-create a db document
+-get api end point
+find document by 
+
+test api end point on postman
+
+
+create axios.js file
+import axios from axios
+create axios instance
+-const instance = axios.create({
+    baseUrl = 'https://backendIpAddress'
+})
+export default instance
+
+import axios from './axios'
+import useEffect from react
+
+//useEffect function based components
+useEffect same as componentDidMount()/
+//componentDidMount for class based components  
+
+create async function inside useEffect(()=>{
+    async function ... (){
+        const req = await axios.get('APIend Point')
+    } 
+}, [])

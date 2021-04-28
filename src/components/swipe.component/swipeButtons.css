@@ -1,0 +1,26 @@
+.swipeButtons{
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 5vh;
+    width: 100%;
+}
+.swipeButtons .MuiIconButton-root{
+    background-color: white;
+    box-shadow: 2px 7px 10px 2px gray;
+}
+.swipeButton__repeat{
+    color: #ffeb3b !important;
+}
+.swipeButton__close{
+    color: #e91e63 !important;
+}
+.swipeButton__star{
+    color: #2196f3 !important;
+}
+.swipeButton__favorite{
+    color: #4caf50 !important;
+}
+.swipeButton__thunder{
+    color: #673ab7 !important;
+}

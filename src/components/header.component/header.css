@@ -1,0 +1,15 @@
+.header__nav{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 2px 1px grey;
+    padding: 10px 20px;
+}
+
+.logo__nav{
+    object-fit: contain;
+    width: 40px;
+}
+.nav__btn{
+    padding: 20px;
+}
